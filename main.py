@@ -19,3 +19,10 @@ with col2:
     I look forward to potentially working with you!
 """
     st.info(content)
+
+content2 = """
+Below you can find some of the apps I've created after graduation. 
+Previous projects are on my GitHub; access granted upon request.
+Feel free to contact me!
+"""
+st.write(content2)
