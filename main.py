@@ -18,16 +18,14 @@ with col1:
 with col2:
     st.title("Juan Carlos Cabrera")
     content = """
-    Hello! I'm Juan Carlos. I'm a recent Software Engineering graduate aiming to leverage my abilities to successfully become a reliable member of a software engineering team. 
+    Hello! I'm Juan Carlos. I'm a Software Engineer aiming to leverage my abilities to successfully become a reliable member of a software engineering team. 
     I look forward to potentially working with you!
 """
     st.info(content)
 
 # Short Description before project columns
 content2 = """
-Below you can find some of the apps I've created after graduation. 
-Previous projects are on my GitHub; access granted upon request.
-Feel free to contact me!
+Below you can find some of the apps I've been working on recently. Feel free to contact me!
 """
 st.write(content2)
 
