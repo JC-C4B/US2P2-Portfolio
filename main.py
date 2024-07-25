@@ -1,6 +1,9 @@
 # Importing our web app library
 import streamlit as st
 
+# Used to easily manipulate csv data
+import pandas
+
 # Adjusting the layout of our webpage to look better
 st.set_page_config(layout="wide")
 
@@ -20,9 +23,25 @@ with col2:
 """
     st.info(content)
 
+# Short Description before project columns
 content2 = """
 Below you can find some of the apps I've created after graduation. 
 Previous projects are on my GitHub; access granted upon request.
 Feel free to contact me!
 """
 st.write(content2)
+
+# Project columns
+col3, col4 = st.columns(2)
+
+# Getting data from csv
+df = pandas.read_csv("data.csv", sep=";")
+
+# 
+with col3:
+    for index, row in df[:10].iterrows():
+        st.header(row["title"])
+
+with col4:
+    for index, row in df[10:].iterrows():
+        st.header(row["title"])
