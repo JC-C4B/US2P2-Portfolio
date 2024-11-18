@@ -1,4 +1,4 @@
-title;description;url;image
-Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://c4b-to-do.streamlit.app/;1.png
-Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://pythonhow.com;2.png
-GitHub;A link to my GitHub page where I keep the code for all my previous projects. Access granted upon request!;https://github.com/JC-C4B;GHL.png
+title;description;link;sourcecode;image
+Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://c4b-to-do.streamlit.app/;;1.png
+Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://pythonhow.com;https://github.com/JC-C4B/US2P2-Portfolio;2.png
+GitHub;A link to my GitHub page where I keep the code for all my previous and current projects.;https://github.com/JC-C4B;;GHL.png

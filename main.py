@@ -18,14 +18,15 @@ with col1:
 with col2:
     st.title("Juan Carlos Cabrera")
     content = """
-    Hello! I'm Juan Carlos. I'm a Software Engineer aiming to leverage my abilities to successfully become a reliable member of a software engineering team. 
-    I look forward to potentially working with you!
+    Hello! I'm Juan Carlos. I'm a Software Engineer aiming to leverage my abilities to successfully become a reliable member of a development team.
+    In the meantime I will be offering freelance coding & tutoring. Feel free to contact me with any inquiries!
+    I look forward to potentially working with you.
 """
     st.info(content)
 
 # Short Description before project columns
 content2 = """
-Below you can find some of the apps I've been working on recently. Feel free to contact me!
+Below you can find some of the apps I've been working on recently.
 """
 st.write(content2)
 
@@ -41,7 +42,8 @@ with col3:
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
-        st.write(f"[Source Code]({row['url']})")
+        st.write(f"[Link]({row['link']})")
+        st.write(f"[Source Code]({row['sourcecode']})")
 
 # Second project display column
 with col4:
@@ -49,4 +51,5 @@ with col4:
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
-        st.write(f"[Source Code]({row['url']})")
+        st.write(f"[Link]({row['link']})")
+        st.write(f"[Source Code]({row['sourcecode']})")
