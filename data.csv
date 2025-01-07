@@ -1,4 +1,11 @@
 title;description;link;sourcecode;image
-Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://c4b-to-do.streamlit.app/;;1.png
-Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://pythonhow.com;https://github.com/JC-C4B/US2P2-Portfolio;2.png
+Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://c4b-to-do.streamlit.app/;https://github.com/JC-C4B/To-Do-Web-App;1.png
+Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;;https://github.com/JC-C4B/US2P2-Portfolio;2.png
+PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/JC-C4B/US2P3-PDF-Maker;https://github.com/JC-C4B/US2P3-PDF-Maker;3.png
+
+
+Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/JC-C4B/Masters-CW/tree/main/COURSE%208/Module_6/P6;https://github.com/JC-C4B/Masters-CW/tree/main/COURSE%208/Module_6/P6;6.png
+
 GitHub;A link to my GitHub page where I keep the code for all my previous and current projects.;https://github.com/JC-C4B;;GHL.png
+
+
